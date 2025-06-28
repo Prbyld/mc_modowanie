@@ -1,7 +1,17 @@
 {
-  "item.prbyldsattachmentsmod.strays_cloth": "stray's cloth",
-  "item.prbyldsattachmentsmod.compact_furnace": "compact furnace",
-  "item.prbyldsattachmentsmod.snorkel": "snorkel",
+  "item.attachments.strays_cloth": "Stray's Cloth",
+  "tooltip.attachments:strays_cloth": "§7Applies slownes to normal arrows",
+
+  "item.attachments.compact_furnace": "Compact Furnace",
+  "tooltip.attachments:compact_furnace1": "§7Smelts mined blocks",
+  "tooltip.attachments:compact_furnace2": "§7without the benefit of providing exp",
+
+  "item.attachments.compacter_furnace": "Compacter Furnace",
+  "tooltip.attachments:compacter_furnace1": "§7Smelts mined blocks and ores",
+  "tooltip.attachments:compacter_furnace2": "§7with a benefit of providing exp",
+
+  "item.attachments.snorkel": "Snorkel",
+  "tooltip.attachments:snorkel": "§7Allows to breath up to §93§7 blocks underwater",
 
   "creative.attachments.attachments": "Attachments"
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_block"
+    },
+    "g": {
+      "item": "minecraft:gold_block"
+    },
+    "c": {
+      "item": "minecraft:copper_block"
+    },
+    "f": {
+      "item": "attachments:compact_furnace"
+    }
+  },
+  "pattern": [
+    "ici",
+    "gfg",
+    "ici"
+  ],
+  "result": {
+    "count": 1,
+    "id": "attachments:compacter_furnace"
+  }
+}

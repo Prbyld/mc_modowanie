@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "ici",
+    "gfg",
+    "ici"
+  ],
+  "result": {
+    "count": 1,
+    "id": "attachments:compact_furnace"
+  }
+}

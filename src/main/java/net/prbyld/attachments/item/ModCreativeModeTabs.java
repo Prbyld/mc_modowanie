@@ -16,10 +16,11 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> ATTACHMENTS_TAB = CREATIVE_MODE_TABS.register("attachments_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STRAYS_CLOTH.get()))
-                    .title(Component.translatable("creative.attachments.attachments_items"))
-                    .displayItems((itemDisplayParameters. output) -> {
+                    .title(Component.translatable("creative.attachments.attachments"))
+                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.STRAYS_CLOTH.get());
                         output.accept(ModItems.COMPACT_FURNACE.get());
+                        output.accept(ModItems.COMPACTER_FURNACE.get());
                         output.accept(ModItems.SNORKEL.get());
                     }).build());
 

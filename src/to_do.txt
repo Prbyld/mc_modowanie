@@ -1,0 +1,3 @@
+- add custom recipe type
+- make nbt data for accesories
+- add functions for nbt
